@@ -5,7 +5,6 @@ import 'package:fcm_app/services/onesignal_notifications.dart';
 import 'package:fcm_app/services/push_notifications_services.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:onesignal_flutter/onesignal_flutter.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
