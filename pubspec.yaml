@@ -39,7 +39,10 @@ dependencies:
   firebase_messaging: ^16.0.0
   flutter_local_notifications: ^19.4.0
   timezone: ^0.10.1
+<<<<<<< HEAD
   onesignal_flutter: ^5.3.4
+=======
+>>>>>>> origin/main
 
 dev_dependencies:
   flutter_test:

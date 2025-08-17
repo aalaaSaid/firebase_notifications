@@ -10,7 +10,11 @@ plugins {
 
 android {
     namespace = "com.example.fcm_app"
+<<<<<<< HEAD
     compileSdkVersion 34
+=======
+    compileSdkVersion 35
+>>>>>>> origin/main
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 

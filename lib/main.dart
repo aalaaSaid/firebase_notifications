@@ -1,7 +1,10 @@
 import 'package:fcm_app/done_screen.dart';
 import 'package:fcm_app/firebase_options.dart';
 import 'package:fcm_app/services/local_notifications_services.dart';
+<<<<<<< HEAD
 import 'package:fcm_app/services/onesignal_notifications.dart';
+=======
+>>>>>>> origin/main
 import 'package:fcm_app/services/push_notifications_services.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -13,7 +16,10 @@ void main() async{
   );
   await PushNotificationsServices.initNotifications();
   await LocalNotificationsServices.initNotifications();
+<<<<<<< HEAD
   await PushNotificationOneSignal.initOneSignal();
+=======
+>>>>>>> origin/main
   runApp(const MyApp());
 }
 
@@ -23,7 +29,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
       home:DoneScreen(),
     );
   }
